@@ -1,0 +1,87 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    animation: fadeIn 1s ease-in;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background: linear-gradient(135deg, #1a73e8, #a6c0fe);
+    color: white;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+section {
+    margin: 30px;
+    padding: 20px;
+    background-color: #c9e7db;
+    border-radius: 8px;
+    border-top: 1px solid #5f8288;
+    padding-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    /* border-bottom: 2px solid #0ae7d5; */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.experiencia-item,
+.educacion-item {
+    margin-bottom: 20px;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+    box-shadow: 0 2px 11px rgba(0, 3, 3, 0.9);
+    /* Sombra detrás de la imagen */
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.center-list {
+    list-style-position: inside;
+    padding: 0;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.center-list li {
+    text-align: left;
+}
